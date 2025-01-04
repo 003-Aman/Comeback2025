@@ -2,3 +2,7 @@ Whatever the rules are for this year>
 We wont keep it in constraints
 we just grind, commit everyday learn everyday
 there is no specific something for now 
+jan1-march31: foundation building
+april1 - june30: intermediate projects and networking
+july1-september30:advanced projects and internship prep
+october1-december31: internship securing phase
