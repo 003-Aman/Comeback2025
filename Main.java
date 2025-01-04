@@ -26,3 +26,21 @@ int[][][] 3darray;
 
 
 }
+
+//traversal at multidimensitonal arrays
+//this is important because ive always had a hard time understanding how this works but lets give it our best
+public class Main {
+    public static void main(String[] args) {
+        // Initializing a 2D array
+        int[][] numbers2d = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+
+        for (int i = 0; i < numbers2d.length; i++) {
+            for (int j = 0; j < numbers2d[i].length; j++) {
+                System.out.println("Value at " + i + "," + j + " : " + numbers2d[i][j]);
+            }
+        }
+    }
+}
