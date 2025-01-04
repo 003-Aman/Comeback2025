@@ -1,0 +1,2 @@
+i think an array begins where a variable ends 
+basically when we need too many variables instead of declaring a lot of variables a single array can do anything
