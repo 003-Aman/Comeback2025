@@ -35,3 +35,37 @@ public void reverse(int[]arr){
         right--;
     }
 }
+
+class Solution {
+    public void flipCharacters(char[] arr) {
+        int left = 0;           // Start pointer
+        int right = arr.length - 1;  // End pointer
+
+        while (left < right) {
+            // Swap the characters at left and right pointers
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            // Move the pointers towards each other
+            left++;
+            right--;
+        }
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        char[] arr1 = {'a', 'e', 'i', 'o', 'u'};
+        solution.flipCharacters(arr1);
+        System.out.println(java.util.Arrays.toString(arr1)); // Output: [u, o, i, e, a]
+
+        char[] arr2 = {'a', 'b', 'c', 'd', 'e'};
+        solution.flipCharacters(arr2);
+        System.out.println(java.util.Arrays.toString(arr2)); // Output: [e, d, c, b, a]
+
+        char[] arr3 = {};
+        solution.flipCharacters(arr3);
+        System.out.println(java.util.Arrays.toString(arr3)); // Output: []
+    }
+}
