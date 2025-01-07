@@ -15,3 +15,23 @@ public void reverse(char[] arr){
         arr[i]=temp[i];
     }
 }
+
+//TWO POINTER METHOD
+public void reverse(int[]arr){
+    //initialize left and right pointers
+    //to some initial values 0 and last index
+    int left =0;
+    int right =arr.length -1;
+   
+    //loop until left and right meet
+    while(left<right){
+        //swap the characters pointed by the left and right pointers
+        int temp = arr[left];
+        arr[left]=arr[right];
+        arr[right]=temp;
+
+        //move both pointers 1 step towards each other
+        left++;
+        right--;
+    }
+}
