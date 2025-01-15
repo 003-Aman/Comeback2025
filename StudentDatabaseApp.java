@@ -5,6 +5,7 @@ public class StudentDatabaseApp{
         //ask how many new users we want to add
         //create n number of new students
         Student stu1 = new Student();
+        stu1.enroll();
         
     }
     
