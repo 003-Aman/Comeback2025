@@ -45,16 +45,16 @@ public class Student {
             Scanner in = new Scanner(System.in);
             String course = in.nextLine();
             if(!course.equals("Q")){
-                courses = courses + "\n" + course;
+                courses = courses + "\n " + course;
                 tuitionBalance = tuitionBalance + costOfCourse;
             }
             else{
-                System.out.println("BREAK!");
+            
                 break;
                 
             }
         } while(1 != 0);
-        System.out.println("ENROLLED IN: " + courses);
+        System.out.print("ENROLLED IN: " + courses);
         System.out.println("TUITION BALANCE: " + tuitionBalance);
     }    
         
