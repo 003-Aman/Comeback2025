@@ -1,1 +1,1 @@
-class StudentDatabaseApplication
+class BankingApplication
