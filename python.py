@@ -24,3 +24,25 @@ x ="Python"
 y=" is "
 z="awesome"
 print(x, y, z)
+
+#GLOBAL VARIABLES
+name = "Aman"
+
+def myFunction():
+    name ="Piyush"
+    print("My name is "+name)
+myFunction()
+print("My name is "+name)
+
+#global keyword
+x='Awesome'
+def myfunc():
+    global x
+    x= "fantastic"
+myfunc()
+
+print("Python is "+x)
+
+#Random number
+import random 
+print(random.randrange(1, 10))
