@@ -51,9 +51,16 @@ print(random.randrange(1, 10))
 x = int ("3")
 y = str(3)
 
+
+#LOOPING THROUGH A STRING
 for  x in "Aman":
     print(x, end ="")
 print()
 country ="Aman"
 for x in country:
     print(x)
+
+#REMOVE WHITESPACE
+a ="hello"
+print(a.strip())
+print(a.split())
