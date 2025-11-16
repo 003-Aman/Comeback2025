@@ -46,3 +46,14 @@ print("Python is "+x)
 #Random number
 import random 
 print(random.randrange(1, 10))
+
+#TYPE CASTING
+x = int ("3")
+y = str(3)
+
+for  x in "Aman":
+    print(x, end ="")
+print()
+country ="Aman"
+for x in country:
+    print(x)
