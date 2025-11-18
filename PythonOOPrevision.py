@@ -24,3 +24,17 @@ print(car1.year)
 print(car1.country)
 car1.drive()
         
+
+class Gadget:
+    def __init__(object,type, year, make):#self doesnt have to be named self it can be anything like object here
+        object.country ="MADE IN USA"
+        object.type =type
+        object.year = year
+        object.make = make
+    def display_info(abc):#this is very interesting , so it can change the name as well in every function for self it works the same . 
+        print("The gadget is : "+abc.type+", the year is : "+str(abc.year)+", the make is : "+abc.make)
+
+g1=Gadget("Mobile","2025","Apple")
+g1.display_info()
+print(g1.country)
+        
