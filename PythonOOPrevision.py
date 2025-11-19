@@ -37,4 +37,19 @@ class Gadget:
 g1=Gadget("Mobile","2025","Apple")
 g1.display_info()
 print(g1.country)
-        
+
+#CALLING METHODS WITH SELF
+class Soccer:
+    def __init__(self,name,position):
+        self.name =name
+        self.position =position
+
+    def target(self):
+        return "Score a goal!! "
+    
+    def outcome(self):
+        message = self.target()
+        print(message +"And win 3 points")
+
+p1=Soccer("Messi","Striker")
+p1.outcome()
