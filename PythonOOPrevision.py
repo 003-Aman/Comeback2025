@@ -40,8 +40,8 @@ print(g1.country)
 
 #CALLING METHODS WITH SELF
 class Soccer:
-    country ="Argentina"
-    def __init__(self,name,position):
+    country ="Argentina" #class property, class attribute
+    def __init__(self,name,position):# these are object attributes
         self.name =name
         self.position =position
 
@@ -55,3 +55,5 @@ class Soccer:
 p1=Soccer("Messi","Striker")
 p1.outcome()
 print(p1.country)
+
+#INHERITANCE

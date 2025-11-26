@@ -68,6 +68,8 @@ a ="hello"
 print(a.strip())
 print(a.split())
 
+#SLICING STRINGS IS IMPORTANT
+
 #STRING METHODS
 '''Method	Description
 capitalize()	Converts the first character to upper case
